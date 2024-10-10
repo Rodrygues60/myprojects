@@ -255,7 +255,7 @@ section.section-sobre{
 }
 .div-p{
     width: 100%;
-    height: 500px;
+    height: 250px;
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(112, 112, 112, 0.384);
     border-radius: 30px;    
@@ -481,6 +481,14 @@ footer h3{
 
 @media screen and (max-width:1000px) {
 
+    .div-p{
+        width: 100%;
+        height: 860px;
+        margin-top: 20px;
+        box-shadow: 0 0 10px rgba(112, 112, 112, 0.384);
+        border-radius: 30px;    
+    }
+
     .swiper {
         width: 90%;
         height: 200px;
@@ -626,7 +634,30 @@ flex-direction: column;
 }
 
 
+@media screen and (max-width:500px){
+
+    .div-p{
+        width: 100%;
+        height: 950px;
+        margin-top: 20px;
+        box-shadow: 0 0 10px rgba(112, 112, 112, 0.384);
+        border-radius: 30px;    
+    }
 
 
+}
+
+@media screen and (max-width:350px){
+
+    .div-p{
+        width: 100%;
+        height: 1080px;
+        margin-top: 20px;
+        box-shadow: 0 0 10px rgba(112, 112, 112, 0.384);
+        border-radius: 30px;    
+    }
+
+
+}
 
 
